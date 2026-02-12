@@ -1,4 +1,4 @@
-# Procedural Grass — Teaching Three.js Skill
+# Procedural Grass — Claude Three.js Skill
 
 A Claude Code skill for generating dense, animated procedural grass fields in Three.js, emphasizing **WebGPU compute with WebGL fallback**.
 
@@ -113,7 +113,13 @@ All wind is computed in the vertex shader — zero per-frame JavaScript loops.
 
 ## Series: Teaching Three.js
 
-This skill is part of a series designed for learning and teaching Three.js with Claude Code. Each skill is independent and can be used standalone or combined with others.
+Independent skills that compose for complete environments:
+
+- [procedural-landscapes](../procedural-landscapes-threejs/) — terrain
+- [procedural-clouds](../procedural-clouds-threejs/) — clouds
+- [procedural-stars](../procedural-stars-threejs/) — nightime skies
+- [procedural-weather](../procedural-weather-threejs/) — precipitation and atmosphere
+- **procedural-grass** ← this skill.
 
 **Companion skill**: [procedural-landscapes](../procedural-landscapes/) — terrain generation pairs naturally with this grass system.
 
